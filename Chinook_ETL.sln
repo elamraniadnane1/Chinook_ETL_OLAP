@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Chinook_ETL", "Chinook_ETL.dtproj", "{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Chinook_CUBE", "..\Chinook_CUBE\Chinook_CUBE.dwproj", "{9E81633B-A82B-40A4-A184-07181DF48077}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -12,6 +14,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Development|Default.ActiveCfg = Development
 		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Development|Default.Build.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Development|Default.ActiveCfg = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Development|Default.Build.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
