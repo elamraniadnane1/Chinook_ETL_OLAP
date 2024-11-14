@@ -7,16 +7,58 @@ Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Chinook_ETL", "Chinook_ETL.
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Chinook_CUBE", "..\Chinook_CUBE\Chinook_CUBE.dwproj", "{9E81633B-A82B-40A4-A184-07181DF48077}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Chinook_ReportWizard", "..\Chinook_ReportWizard\Chinook_ReportWizard.rptproj", "{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Chinook_Report", "..\Chinook_Report\Chinook_Report.rptproj", "{387F3198-9E4C-44F1-8A28-769449677621}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
 		Development|Default = Development|Default
+		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Debug|Default.ActiveCfg = Development
+		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Debug|Default.Build.0 = Development
+		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.DebugLocal|Default.ActiveCfg = Development
+		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.DebugLocal|Default.Build.0 = Development
 		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Development|Default.ActiveCfg = Development
 		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Development|Default.Build.0 = Development
+		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Release|Default.ActiveCfg = Development
+		{7D56C3A6-3EE5-4C3E-9E0E-33967119E3DE}.Release|Default.Build.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Debug|Default.ActiveCfg = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Debug|Default.Build.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Debug|Default.Deploy.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.DebugLocal|Default.ActiveCfg = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.DebugLocal|Default.Build.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.DebugLocal|Default.Deploy.0 = Development
 		{9E81633B-A82B-40A4-A184-07181DF48077}.Development|Default.ActiveCfg = Development
 		{9E81633B-A82B-40A4-A184-07181DF48077}.Development|Default.Build.0 = Development
 		{9E81633B-A82B-40A4-A184-07181DF48077}.Development|Default.Deploy.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Release|Default.ActiveCfg = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Release|Default.Build.0 = Development
+		{9E81633B-A82B-40A4-A184-07181DF48077}.Release|Default.Deploy.0 = Development
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Debug|Default.ActiveCfg = Debug
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Debug|Default.Build.0 = Debug
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Debug|Default.Deploy.0 = Debug
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.DebugLocal|Default.Build.0 = DebugLocal
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Development|Default.ActiveCfg = DebugLocal
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Development|Default.Build.0 = DebugLocal
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Release|Default.ActiveCfg = Release
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Release|Default.Build.0 = Release
+		{1FA24F6E-43CC-4EDB-AA7B-1C6051CE9195}.Release|Default.Deploy.0 = Release
+		{387F3198-9E4C-44F1-8A28-769449677621}.Debug|Default.ActiveCfg = Debug
+		{387F3198-9E4C-44F1-8A28-769449677621}.Debug|Default.Build.0 = Debug
+		{387F3198-9E4C-44F1-8A28-769449677621}.Debug|Default.Deploy.0 = Debug
+		{387F3198-9E4C-44F1-8A28-769449677621}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{387F3198-9E4C-44F1-8A28-769449677621}.DebugLocal|Default.Build.0 = DebugLocal
+		{387F3198-9E4C-44F1-8A28-769449677621}.Development|Default.ActiveCfg = DebugLocal
+		{387F3198-9E4C-44F1-8A28-769449677621}.Development|Default.Build.0 = DebugLocal
+		{387F3198-9E4C-44F1-8A28-769449677621}.Release|Default.ActiveCfg = Release
+		{387F3198-9E4C-44F1-8A28-769449677621}.Release|Default.Build.0 = Release
+		{387F3198-9E4C-44F1-8A28-769449677621}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
